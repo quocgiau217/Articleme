@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar sticky-top navbar-expand-lg navbar-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img class="logo" src="../assets/logo.png"></a>
+      <a class="navbar-brand" href="#"><img class="logo" src="https://th.bing.com/th/id/R.73b21d2b9505369af5dbde6e29458174?rik=9YstveZ%2fQ57KPQ&pid=ImgRaw&r=0"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -53,11 +53,10 @@
             </ul>
           </li>
         </ul>
-        <form class="d-flex form">
-          <input class="form-control me-2 search" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit"><img class="icon"
-              src="../assets/icons/search.png"></button>
-        </form>
+       <!-- <form class="d-flex form" @submit.prevent="search">
+          <input class="form-control me-2 search" type="search" v-model="searchTerm" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><img class="icon" src="../assets/icons/search.png"></button>
+        </form>-->
         <router-link to="/write" v-if="this.store.state.islogged==true" class="btn header-btn btn-primary">New Post</router-link>
       </div>
     </div>

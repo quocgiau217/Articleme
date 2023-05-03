@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="blog">
-            <h2>Tất cả bài viết</h2>
+            <h2>All articles</h2>
             <TagsContainer />
             <div class="blogs">
                 <div class="row">

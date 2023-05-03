@@ -20,7 +20,7 @@
                         </div>
                         <div class="sharing">
                             <router-link class="share" :to="`/post/edit/${id}`"><i class="fa fa-eye"></i>View</router-link>
-                            <div class="comments" @click="Edit()"><i class="fa fa-pencil"></i>Edit</div>
+                            <div class="comments" @click="Edit()" ><i class="fa fa-pencil"></i>Edit</div>
                             <div class="views" @click="DeletePost()"><i class="fa fa-trash"></i>Delete</div>
                         </div>
                     </div>
@@ -68,7 +68,6 @@ export default {
     }
 };
 </script>
-  
 <style scoped>
 .item {
     background: rgba(255, 255, 255, 1);

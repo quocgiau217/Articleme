@@ -3,7 +3,8 @@
     <div class="row">
       <div class="col-md-6">
         <div class="img-container container">
-          <img src="../assets/img/banner.png" class="img" />
+          <img src="https://www.winona.edu/theme/Images/Future-of-Learning-Theme-Logo-876.jpg" style="height: 80%; width: 80%;" />
+
         </div>
       </div>
       <div class="col-md-6">

@@ -3,7 +3,9 @@
         <div class="row">
             <div class="col-md-3">
                 <h2>About Us</h2>
-                <p>OpenGrowth is a one-stop platform to nurture the entrepreneurial mindset in people across the globe. We are committed to transforming the world through innovation and collaboration.</p>
+                <p>We are committed to providing you with the skills, knowledge and confidence you need to achieve your personal and professional goals
+                </p>
+                
             </div>
             <div v-for="n in 3" class="col-md-3">
                 <FooterLinks :title="links.title[n-1]" :hyperlinks="links.hyperlinks[n-1]"/>

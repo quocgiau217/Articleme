@@ -8,7 +8,7 @@
             <img class="img" src="https://www.opengrowth.com/assets/og/images/module/mentors.png">
             </div>
             <div class="card-txt">
-            <p>Mentorship</p>
+            <p>mentors</p>
             </div>
           </div>
         </a>
